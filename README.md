@@ -1,13 +1,13 @@
 # Linux System Monitor Script
 
-A bash script that monitors system stats and check if a specific process is running .
+A bash script that monitors system stats and checks if a specific process is running .
 
 ## What it does
 
 - Shows current user , date and system uptime
-- Displays disks usage and memory usage
-- Lits top 3 CPU-consuming processes
-- Takes a process as input and checks if it's currently running 
+- Displays disk usage and memory usage
+- Lists top 3 CPU-consuming processes
+- Takes a process name as input and checks if it's currently running 
 
 # How to run
 
@@ -62,15 +62,14 @@ rashid       306  0.0  0.0   6320  5248 pts/0    Ss   15:16   0:00 -bash
 rashid       389  0.0  0.0   6072  4992 pts/1    S+   15:16   0:00 -bash
 rashid       618  0.0  0.0   6336  5120 pts/2    Ss+  15:30   0:00 -bash
 rashid      1119  0.0  0.0   6204  5248 pts/3    Ss+  15:46   0:00 -bash
-rashid      1166  0.0  0.0   4752  3328 pts/0    S+   16:02   0:00 /bin/bash ./linux-monitoring-script.sh
 ```
 
 ## What I learned
 
 - File system navigation and permission ('chmod')
 - Process management ('ps', 'grep')
-- Disk and memory monitoring command ('df', 'free')
-- Conditional logic in Bash ('if\else')
+- Disk and memory monitoring commands ('df', 'free')
+- Conditional logic in Bash ('if/else')
 - String matching with 'grep'
 
 ## Tech used 
